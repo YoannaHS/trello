@@ -8,7 +8,7 @@
 header {
     width: 100%;
     background-color: #0079bf;
-    position: fixed;
+    /* position: fixed; */
     height: 10%;
     padding: 10px;
     z-index: 1000;
@@ -74,4 +74,31 @@ li i {
 
 body {
     background-color: #1da1f2;
+    color: white;
+    width: 100%;
+}
+
+.tableros {
+    display: inline-block;
+    column-count: 2;
+    column-gap: 80px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.tableros p {
+    font-size: 20px;
+}
+
+#menu {
+    float: right;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#areatext {
+    background-color: #e2e4e6;
+    border-block-end-style: none;
 }
