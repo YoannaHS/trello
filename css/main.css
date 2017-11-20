@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background-color: #0079bf;
+    position: fixed;
+    height: 10%;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#logo-trello {
+    width: 8%;
+}
+
+#logo-mitad {
+    width: 15px;
+}
+
+#buscar {
+    background-color: #4e97c2;
+    border-style: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.logo #logo-trello {
+    position: absolute;
+    margin-left: 45%;
+}
+
+#logo-profile {
+    position: absolute;
+    width: 45px;
+    border-radius: 150px;
+    margin-left: 95%;
+    top: 10px;
+    cursor: pointer;
+}
+
+.bar-nav span {
+    background-color: #4e97c2;
+    color: white;
+    padding: 8px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 85%;
+    border-top: 10px;
+    position: absolute;
+    margin-top: -35px;
+}
+
+li {
+    margin: 8px;
+    background-color: #4e97c2;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+li i {
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-color: #1da1f2;
+}
